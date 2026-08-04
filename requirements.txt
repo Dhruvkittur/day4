@@ -1,12 +1,11 @@
-gradio>=4.0.0
+streamlit>=1.30.0
 langgraph
-langchain
+langchain>=0.2.0
 langchain-groq
 langchain-community
 langchain-huggingface
 tavily-python
 arxiv
-fitz
 pymupdf
 faiss-cpu
 rank_bm25
