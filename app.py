@@ -11,7 +11,7 @@ from langchain_community.utilities import ArxivAPIWrapper
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.retrievers import BM25Retriever
-from langchain.retrievers import EnsembleRetriever
+from langchain_community.retrievers import EnsembleRetriever
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.messages import BaseMessage, HumanMessage
 from langchain_core.documents import Document
