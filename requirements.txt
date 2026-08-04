@@ -1,0 +1,7 @@
+streamlit>=1.30.0
+langgraph
+langchain-groq
+langchain-community
+tavily-python
+arxiv
+typing-extensions
