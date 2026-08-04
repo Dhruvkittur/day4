@@ -14,7 +14,7 @@ from langchain_community.retrievers import BM25Retriever
 try:
     from langchain.retrievers import EnsembleRetriever
 except ImportError:
-    from langchain_community.retrievers import EnsembleRetriever
+    from langchain.retrievers import EnsembleRetriever
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.messages import BaseMessage, HumanMessage
 from langchain_core.documents import Document
