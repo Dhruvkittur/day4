@@ -1,6 +1,6 @@
 streamlit>=1.30.0
 langgraph
-langchain>=0.2.0
+langchain
 langchain-groq
 langchain-community
 langchain-huggingface
